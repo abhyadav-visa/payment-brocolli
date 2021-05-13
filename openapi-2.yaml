@@ -55,9 +55,18 @@ paths:
           application/json:
             schema:
               $ref: '#/components/schemas/User'
+            examples:
+              Sample1: # Example 1
+                value:
+                  id: 10
+                  name: Jessica Smith
+              Sample2: # Example 2
+                value:
+                  id: 11
+                  name: Ron Stewart
           application/xml:
             schema:
-              $ref: '#/components/schemas/User'
+              $ref: '#/components/schemas/User' 
           application/x-www-form-urlencoded:
             schema:
               $ref: '#/components/schemas/User'
